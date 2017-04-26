@@ -1,0 +1,22 @@
+{
+  "name": "pheidippides",
+  "version": "0.0.5",
+  "description": "",
+  "main": "bin/server.js",
+  "scripts": {
+    "build": "babel src -d bin"
+  },
+  "author": "Jarom McDonald",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "aws-promised": "^2.13.0",
+    "bunyan": "^1.8.1",
+    "fs-promise": "^0.5.0",
+    "is-there": "^4.3.2",
+    "restify": "^4.0.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.7.7",
+    "babel-preset-latest": "^6.6.0"
+  }
+}
